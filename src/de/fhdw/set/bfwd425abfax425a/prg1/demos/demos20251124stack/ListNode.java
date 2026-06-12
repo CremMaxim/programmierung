@@ -1,0 +1,24 @@
+package de.fhdw.set.bfwd425abfax425a.prg1.demos.demos20251124stack;
+
+public class ListNode {
+
+    ListNode mSuccessor;
+    int mContent;
+
+    public ListNode getSuccessor() {
+        return mSuccessor;
+    }
+
+    public void setSuccessor(ListNode successor) {
+        mSuccessor = successor;
+    }
+
+    public int getContent() {
+        return mContent;
+    }
+
+    public void setContent(int content) {
+        mContent = content;
+    }
+
+}
