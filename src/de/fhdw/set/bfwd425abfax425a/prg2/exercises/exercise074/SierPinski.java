@@ -27,7 +27,7 @@ public class SierPinski {
     public static void main(String[] args) {
         StdDraw.enableDoubleBuffering();
         Turtle turtle = new Turtle(0.1, 0.1, 0);  // unten links, Blick nach rechts (0°)
-        sierpinski(turtle, 10, 0.8);
+        sierpinski(turtle, 5, 0.8);
         turtle.show();
     }
 }
